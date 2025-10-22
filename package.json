@@ -1,0 +1,23 @@
+{
+  "name": "prachsphere-v2",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "test": "turbo test"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.23",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "autoprefixer": "^10.4.21",
+    "lucide-react": "^0.546.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "3.4.13",
+    "turbo": "^2.1.1",
+    "typescript": "^5.6.3"
+  }
+}

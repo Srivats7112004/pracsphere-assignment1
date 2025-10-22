@@ -1,0 +1,15 @@
+{
+  "extends": "./packages/config/tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",                    // <-- required when using "paths"
+    "ignoreDeprecations": "6.0",       // <-- silences the TS7 baseUrl warning
+    "paths": {
+      "@repo/ui": ["./packages/ui/src"],
+      "@repo/utils": ["./packages/utils/src"],
+      "@repo/types": ["./packages/types/src"],
+      "@repo/db": ["./packages/db/src"],
+      "@repo/config/*": ["./packages/config/*"]
+    }
+  },
+  "include": ["apps", "packages"]
+}
